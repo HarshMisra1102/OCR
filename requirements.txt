@@ -3,3 +3,8 @@ uvicorn
 python-chess
 pydantic
 python-multipart
+opencv-python
+pytesseract
+Pillow
+numpy
+pdf2image
