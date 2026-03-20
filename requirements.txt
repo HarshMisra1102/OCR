@@ -3,3 +3,6 @@ pytesseract
 Pillow
 numpy
 pdf2image
+fastapi
+uvicorn
+python-multipart
