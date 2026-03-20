@@ -1,0 +1,80 @@
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(135deg, #0f172a, #1e293b);
+color: white;
+}
+
+.app {
+max-width: 700px;
+margin: auto;
+padding: 40px;
+text-align: center;
+}
+
+h1 {
+font-size: 2.5rem;
+}
+
+.subtitle {
+color: #94a3b8;
+margin-bottom: 30px;
+}
+
+.card {
+background: #1e293b;
+padding: 30px;
+border-radius: 15px;
+margin-bottom: 20px;
+}
+
+.upload-box {
+border: 2px dashed #334155;
+padding: 40px;
+cursor: pointer;
+margin-bottom: 20px;
+border-radius: 10px;
+}
+
+.upload-box:hover {
+background: #334155;
+}
+
+button {
+padding: 12px 25px;
+border: none;
+background: #22c55e;
+color: white;
+border-radius: 8px;
+cursor: pointer;
+}
+
+button:hover {
+background: #16a34a;
+}
+
+.result-card {
+background: #1e293b;
+padding: 20px;
+border-radius: 15px;
+}
+
+.result-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+pre {
+text-align: left;
+white-space: pre-wrap;
+margin-top: 15px;
+background: #0f172a;
+padding: 15px;
+border-radius: 10px;
+}
+
+footer {
+margin-top: 30px;
+color: #64748b;
+}

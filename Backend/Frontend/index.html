@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shayak AI OCR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>🚀 Shayak AI OCR</h1>
+    <p class="subtitle">Smart Document Scanner (Hindi + English)</p>
+
+```
+<div class="card">
+    <input type="file" id="fileInput" hidden>
+
+    <div class="upload-box" onclick="triggerUpload()">
+        <p>📄 Click to Upload or Drag & Drop</p>
+    </div>
+
+    <button onclick="uploadFile()">Scan Document</button>
+</div>
+
+<div class="result-card">
+    <div class="result-header">
+        <h3>Extracted Text</h3>
+        <button onclick="copyText()">Copy</button>
+    </div>
+    <pre id="output">Your result will appear here...</pre>
+</div>
+
+<footer>Developed by Harsh Misra</footer>
+```
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

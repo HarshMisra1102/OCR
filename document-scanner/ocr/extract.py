@@ -1,9 +1,16 @@
 import pytesseract
+import os
 
-# Uncomment if Windows and needed
-# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = os.getenv(
+    "TESSERACT_PATH",
+    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+)
 
-def extract_text(image):
+def extract_text(image, lang="eng"):
     custom_config = r'--oem 3 --psm 6'
-    text = pytesseract.image_to_string(image, config=custom_config)
-    return text
+
+    return pytesseract.image_to_string(
+        image,
+        lang=lang,
+        config=custom_config
+    )
